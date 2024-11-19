@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Čierny | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#technologies">Technologies</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="intro">
+            <h1>Hello, I'm Samuel Čierny</h1>
+            <p>I'm a 15 year old Data Scientist based in Slovakia</p>
+            <button onclick="window.location.href='#projects'">View My Work</button>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <p class="text-line">Driven by data, I uncover patterns that guide decisions.</p>
+        <p class="text-line">I transform complex datasets into actionable insights.</p>
+        <p class="text-line">Scroll down to learn about my journey in data science.</p>
+    </section>
+
+    <section id="technologies">
+        <h2>Technologies</h2>
+        <p class="desc-tech">I have worked with many technologies and gathered a lot of knowledge about them. </p>
+        <div class="tech-grid">
+            <div class="tech-item">
+                <img src="images/excel-icon.png">
+                <div class="tech-text">
+                    <h3>Excel</h3>
+                    <p>Spreadsheet Software</p>
+                </div>
+            </div>
+            <div class="tech-item">
+                <img src="images/python-icon.png">
+                <div class="tech-text">
+                    <h3>Python</h3>
+                    <p>Programming Language</p>
+                </div>
+            </div>
+            <div class="tech-item">
+                <img src="images/git-icon.png">
+                <div class="tech-text">
+                    <h3>Git</h3>
+                    <p>Version Control</p>
+                </div>
+            </div>
+            <div class="tech-item">
+                <img src="images/pandas-icon.png">
+                <div class="tech-text">
+                    <h3>Pandas</h3>
+                    <p>Data Manipulation</p>
+                </div>
+            </div>
+            <div class="tech-item">
+                <img src="images/sql-icon.png" >
+                <div class="tech-text">
+                    <h3>SQL</h3>
+                    <p>Data Management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>UFC Fighter Analysis</h3>
+            <p>Analyzed a UFC dataset sourced from Kaggle using <strong>SQL</strong>. Explored performance metrics, win-loss ratios, and weight class statistics with integrated visualization and insights.</p>
+            <a href="https://github.com/samuelcierny/ufc-fighters-sql" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Movie Data Explorer</h3>
+            <p>A movie recommendation project using the MovieLens dataset, leveraging tags and genres to suggest similar films using <strong>Python Pandas</strong>. Features include personalized filtering, average rating calculations, and dynamic sorting to enhance the user experience.</p>
+            <a href="https://github.com/samuelcierny/movie-data-explorer" target="_blank">View Project</a>
+        </div>
+                <div class="project">
+            <h3>Gym Members Fitness Analysis in Excel</h3>
+            <p>Analyzed gym members' fitness data through pivot tables and <strong>Excel</strong> functions, uncovering trends in workout efficiency, demographics, and health metrics. Visualized insights with interactive charts for actionable analysis.</p>
+            <a href="https://github.com/samuelcierny/gym-members-fitness-analysis" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>If you’d like to get in touch, feel free to reach out via the platforms below or download my CV.</p>
+        <div class="contact-icons">
+            <a href="https://github.com/samuelcierny" target="_blank" class="contact-icon" title="GitHub">
+                <img src="images/github-icon.png" alt="GitHub" />
+                <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/samuel-čierny-b297282a5/" target="_blank" class="contact-icon" title="LinkedIn">
+                <img src="images/linkedin-icon.png" alt="LinkedIn" />
+                <span>LinkedIn</span>
+            </a>
+            <a href="your-cv-link.pdf" target="_blank" download class="contact-icon" title="Download CV">
+                <img src="images/cv-icon.png" alt="CV" />
+                <span>Download CV</span>
+            </a>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
