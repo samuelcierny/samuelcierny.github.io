@@ -328,8 +328,6 @@ section p {
 
 strong {
     font-weight: 1000;
-<<<<<<< HEAD
-=======
 }
 
 @media screen and (max-width: 768px) {
@@ -420,5 +418,4 @@ img {
     .text-line {
         font-size: 1.5rem;
     }
->>>>>>> 1265f57 (Added a responsive design for mobile devices and changed the sorting of skills)
 }
